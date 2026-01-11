@@ -37,10 +37,16 @@ To install dependencies:
 bun install
 ```
 
-To run:
+To run the agent test:
 
 ```bash
-bun run index.ts
+bun test
+```
+
+To clean up test runs:
+
+```bash
+bun run clean
 ```
 
 This project was created using `bun init` in bun v1.3.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
