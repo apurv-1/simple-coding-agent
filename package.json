@@ -6,6 +6,11 @@
   "devDependencies": {
     "@types/bun": "latest"
   },
+  "scripts": {
+    "test": "bun testing/test_agent.ts",
+    "test:response": "bun testing/test_response.ts",
+    "clean": "rm -rf testing/runs"
+  },
   "peerDependencies": {
     "typescript": "^5"
   },
